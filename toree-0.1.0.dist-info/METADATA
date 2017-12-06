@@ -1,0 +1,34 @@
+Metadata-Version: 2.0
+Name: toree
+Version: 0.1.0
+Summary: Apache Toree (incubator). A Jupyter kernel for enabling remote applications to interaction with Apache Spark.
+Home-page: http://toree.incubator.apache.org/
+Author: Apache Toree Development Team
+Author-email: dev@toree.incubator.apache.org
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: SQL
+Requires-Dist: jupyter-client (>=4.0,<5.0)
+Requires-Dist: jupyter-core (>=4.0,<5.0)
+Requires-Dist: traitlets (>=4.0,<5.0)
+
+
+This package will install Apache Toree as a Jupyter kernel.
+
+Apache Toree is an effort undergoing incubation at the Apache Software
+Foundation (ASF), sponsored by the Apache Incubator PMC.
+
+Incubation is required of all newly accepted projects until a further review
+indicates that the infrastructure, communications, and decision making process
+have stabilized in a manner consistent with other successful ASF projects.
+
+While incubation status is not necessarily a reflection of the completeness
+or stability of the code, it does indicate that the project has yet to be
+fully endorsed by the ASF.
+
+

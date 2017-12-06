@@ -1,0 +1,126 @@
+{
+  "description": "Jupyter Notebook Extension\nEnables the CodeMirror addon \"Match Highlighter\"",
+  "main": "main.js",
+  "name": "Highlight selected word",
+  "org_jupyter_nbextension": {
+    "description": "Enables the CodeMirror addon \"Match Highlighter\"",
+    "main": "main.js",
+    "name": "Highlight selected word",
+    "notebook_compatibility": "4.x || 5.x",
+    "parameters": [
+      {
+        "default": true,
+        "description": "Enable highlighting on loading the notebook interface.\nThe highlighting can also be toggled from the view menu\n",
+        "input_type": "checkbox",
+        "name": "highlight_selected_word.enable_on_load"
+      },
+      {
+        "default": true,
+        "description": "Highlight matches across all cells. If false, only matches within the\ncurrently selected cell will be highlighted.\n",
+        "input_type": "checkbox",
+        "name": "highlight_selected_word.highlight_across_all_cells"
+      },
+      {
+        "default": false,
+        "description": "Only apply highlights to editors for Code cells, not, for example, Markdown\nor Raw cells\n",
+        "input_type": "checkbox",
+        "name": "highlight_selected_word.code_cells_only"
+      },
+      {
+        "default": "#90EE90",
+        "description": "Color used to highlight matching words in the focussed cell",
+        "input_type": "color",
+        "name": "highlight_selected_word.highlight_color"
+      },
+      {
+        "default": "#BBFFBB",
+        "description": "Color used to highlight matching words in blurred (non-active) cells",
+        "input_type": "color",
+        "name": "highlight_selected_word.highlight_color_blurred"
+      },
+      {
+        "default": false,
+        "description": "Highlight words using just an outline, rather than the background color\n",
+        "input_type": "checkbox",
+        "name": "highlight_selected_word.outlines_only"
+      },
+      {
+        "default": 1,
+        "description": "Width, in pixels, of the outline used to highlight words when the\noutline-only setting is selected.\n",
+        "input_type": "number",
+        "min": 0.5,
+        "name": "highlight_selected_word.outline_width",
+        "step": 0.5
+      },
+      {
+        "default": 100,
+        "description": "Wait time, in milliseconds, before highlighting the matches",
+        "input_type": "number",
+        "min": 0,
+        "name": "highlight_selected_word.delay",
+        "step": 1
+      },
+      {
+        "default": false,
+        "description": "Only highlight matches if the selected text is a whole word",
+        "input_type": "checkbox",
+        "name": "highlight_selected_word.words_only"
+      },
+      {
+        "default": true,
+        "description": "Only highlight matches when they are surrounded by non-word characters, as\ndetermined by the token below (if set), or the default regex '[\\w$]'.\n",
+        "input_type": "checkbox",
+        "name": "highlight_selected_word.highlight_only_whole_words"
+      },
+      {
+        "default": "[\\w$]",
+        "description": "Token (regex) to identify word characters, used to determine what to\nhighlight when nothing is selected. If blank, nothing is highlighted when\nnothing is selected.\n",
+        "input_type": "text",
+        "name": "highlight_selected_word.show_token"
+      },
+      {
+        "default": 2,
+        "description": "Minimum number of characters that must be selected for the highlighting\nto occur (assuming no token is set for use when nothing is selected)\n",
+        "input_type": "number",
+        "min": 0,
+        "name": "highlight_selected_word.min_chars",
+        "step": 1
+      },
+      {
+        "default": true,
+        "description": "Trim whitespace from selection text before checking for minimum length\n",
+        "input_type": "checkbox",
+        "name": "highlight_selected_word.trim"
+      },
+      {
+        "default": false,
+        "description": "Bind the highlight_selected_word:toggle action to a hotkey\n",
+        "input_type": "checkbox",
+        "name": "highlight_selected_word.use_toggle_hotkey"
+      },
+      {
+        "default": "alt-h",
+        "description": "Hotkey to bind to the highlight_selected_word:toggle action (if selected\nfor use, above)\n",
+        "input_type": "hotkey",
+        "name": "highlight_selected_word.toggle_hotkey"
+      },
+      {
+        "default": true,
+        "description": "Only apply highlights to editors which are visible in the scrolled view.\nThis may offer performance benefits for larger notebooks\n",
+        "input_type": "checkbox",
+        "name": "highlight_selected_word.only_cells_in_scroll"
+      },
+      {
+        "default": 100,
+        "description": "Minimum delay in ms between updating highlights on scrolling the notebook\n(used only if limiting highlights to those in scrolled view, see above).\nIf set to zero, no update is done on scroll.\n",
+        "input_type": "number",
+        "min": 0,
+        "name": "highlight_selected_word.scroll_min_delay",
+        "step": 10
+      }
+    ],
+    "readme": "README.md",
+    "section": "notebook"
+  },
+  "version": "0.0.0"
+}

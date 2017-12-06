@@ -1,0 +1,13 @@
+pyexcel_xls/__init__.py,sha256=THmzVbNv3QkW6JY83eUPKaKDLcmIZZW0qvwZ_d4zL1g,1272
+pyexcel_xls/xlsr.py,sha256=MkfPN4FrNhcv3ZU8Y9xhtMu0XsGktAnTG5AFMRbPJxA,6653
+pyexcel_xls/xlsw.py,sha256=K4LzOXcHw9pr_AWGHJOfOiJqcn-YBwJUH0gqwZQUOGU,2727
+pyexcel_xls-0.5.4.dist-info/DESCRIPTION.rst,sha256=vCEBDZGHBtQvLJt2D8gvwvLikYS0zFvEdrHctt-tywU,16434
+pyexcel_xls-0.5.4.dist-info/METADATA,sha256=bqs8SjVm6nq_QsFzS89wsMPA4NnqIwP0RnOjF8eJ9HU,17525
+pyexcel_xls-0.5.4.dist-info/RECORD,,
+pyexcel_xls-0.5.4.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+pyexcel_xls-0.5.4.dist-info/metadata.json,sha256=9R-q0CGXFP2HgI1t6TNvmWXEBRrYo6h5Cpr9ov2tCCs,1264
+pyexcel_xls-0.5.4.dist-info/top_level.txt,sha256=BUnKONYxliKJ2jxApfHf6axFRRt5N71tJORyyCMO58g,12
+pyexcel_xls-0.5.4.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+pyexcel_xls/__pycache__/xlsw.cpython-36.pyc,,
+pyexcel_xls/__pycache__/xlsr.cpython-36.pyc,,
+pyexcel_xls/__pycache__/__init__.cpython-36.pyc,,
